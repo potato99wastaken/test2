@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Falling Food Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="info">5 miss = game over</h1>
+    <h2 id="podinfo">crtl + r jeśli game over</h2>
+    <div class="game-container">
+        <div id="player"></div>
+        <div id="food"></div>
+        <div id="game-over" class="hidden">
+            Game Over
+            <button id="restart-btn" class="hidden">Restart Game</button>
+        </div>
+        <div id="score">Score: 0</div>
+        <div id="misses">Misses: 0</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

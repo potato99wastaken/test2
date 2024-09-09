@@ -1,0 +1,47 @@
+.game-container {
+    position: relative;
+    width: 400px;
+    height: 600px;
+    border: 1px solid black;
+    margin: auto;
+    overflow: hidden;
+}
+
+#player {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    bottom: 0;
+}
+
+.food {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+#game-over, #restart-btn {
+    display: none;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#score{
+    color: green;
+}
+#misses{
+    color: red;
+}
+#info{
+    text-align: center;
+}
+#podinfo{
+    text-align: center;
+}
